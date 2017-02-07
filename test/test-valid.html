@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, minimum-scale=1,maximum-scale=1">
+
+        <style>
+        	body {
+        		margin: 0;
+        		padding: 0;
+        	}
+
+        </style>
+        <script src="../js/lib/jquery.js"></script>
+        <script src="../js/lib/jquery-ui.min.js"></script>
+        <script src="../js/lib/jquery.fullPage.js"></script>
+        <script src="../js/H5ComponentBase.js"></script>
+        <link rel="stylesheet" href="../css/H5ComponentBase.css">
+    </head>
+    <body>
+    <!--验证fullpage.js 切换页面，以及内容组织结构可用，组件能够动画-->
+
+	<div id="iphone">
+    	
+	</div>
+    <script>
+        h5 = new h5ComponentBase();
+        $('#iphone').append(h5);
+        h5.on('onLoad',function() {
+            alert(1);
+        })       
+    </script>
+    </body>
+</html>
